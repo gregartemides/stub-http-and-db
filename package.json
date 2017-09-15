@@ -4,14 +4,14 @@
   "description": "Stubbing HTTP and DB with Sinon... and promises.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "coverage": "istanbul cover ./index.js"
   },
   "author": "Greg Artemides",
   "license": "ISC",
   "devDependencies": {
-    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.3",
-    "mocha-lcov-reporter": "^1.3.0",
     "sinon": "^3.2.1"
   },
   "dependencies": {
