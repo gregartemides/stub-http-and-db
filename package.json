@@ -1,0 +1,22 @@
+{
+  "name": "stub-http-and-db",
+  "version": "1.0.0",
+  "description": "Stubbing HTTP and DB with Sinon... and promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "Greg Artemides",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "sinon": "^3.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "mongoose": "^4.11.11",
+    "xml2json": "^0.11.0"
+  }
+}
