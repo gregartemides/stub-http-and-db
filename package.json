@@ -4,7 +4,7 @@
   "description": "Stubbing HTTP and DB with Sinon... and promises.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "node_modules/.bin/mocha"
   },
   "author": "Greg Artemides",
   "license": "ISC",
